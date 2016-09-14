@@ -1558,6 +1558,55 @@ presets:
         - 1409
         - 1410
         - 1657
+- - '<color=0xFFFFFFFF><fontsize=12>✈</fontsize> Travel: Show Planets</color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 21
+        - 45
+        - 49
+    - - groups
+      - - 6
+        - 7
+        - 10
+        - 15
+        - 90
+        - 310
+        - 361
+        - 366
+        - 411
+        - 479
+        - 492
+        - 548
+        - 707
+        - 835
+        - 836
+        - 838
+        - 839
+        - 863
+        - 864
+        - 897
+        - 925
+        - 988
+        - 1003
+        - 1005
+        - 1012
+        - 1149
+        - 1249
+        - 1316
+        - 1404
+        - 1405
+        - 1406
+        - 1407
+        - 1408
+        - 1409
+        - 1410
+        - 1657
 - - '<color=0xFFFFFFFF><fontsize=12>✈</fontsize> Travel: Hide Stations</color>'
   - - - filteredStates
       - - 11
