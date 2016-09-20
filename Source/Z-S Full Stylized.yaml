@@ -7627,7 +7627,7 @@ tabSetup:
     - - name
       - <fontsize=13><color=0xFFFF6666><b>     ✥     </b></color></fontsize>
     - - overview
-      - '<color=0xFFFF6666><fontsize=12>✥</fontsize> --- PvP: Basic</color>'
+      - '<color=0xFFFF6666><fontsize=12>✥</fontsize> --- PvP: Basic (+Neut +NPC)</color>'
 - - 2
   - - - bracket
       - '<color=0xB3B3B3B3><fontsize=12>⌘</fontsize> Brackets: Skirmirsh </color>'
@@ -7662,7 +7662,7 @@ tabSetup:
     - - name
       - <fontsize=12><color=0xFF66CCFF><b>   ✪   </b></color></fontsize>
     - - overview
-      - '<color=0xFF66CCFF><fontsize=12>✪</fontsize> --- Friendly: All</color>'
+      - '<color=0xFF66CCFF><fontsize=12>✪</fontsize> --- Friendly: All (-Dro)</color>'
 - - 7
   - - - bracket
       - '<color=0xB3B3B3B3><fontsize=12>⌘</fontsize> Brackets: Default</color>'
