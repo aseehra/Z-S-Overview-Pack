@@ -9,11 +9,11 @@ backgroundOrder:
 - 16
 - 45
 - 49
-- 19
-- 18
 - 9
 - 51
 - 50
+- 18
+- 19
 - 53
 - 10
 - 20
@@ -43,20 +43,20 @@ backgroundStates:
 - 52
 - 53
 columnOrder:
-- ICON
 - TAG
+- ICON
 - DISTANCE
 - NAME
 - TYPE
-- ALLIANCE
 - CORPORATION
+- ALLIANCE
 - FACTION
 - MILITIA
 - SIZE
 - VELOCITY
 - RADIALVELOCITY
-- TRANSVERSALVELOCITY
 - ANGULARVELOCITY
+- TRANSVERSALVELOCITY
 flagOrder:
 - 13
 - 44
@@ -108,8 +108,7 @@ overviewColumns:
 - DISTANCE
 - ICON
 - NAME
-- TAG
-- TRANSVERSALVELOCITY
+- RADIALVELOCITY
 - TYPE
 - VELOCITY
 presets:
@@ -8340,47 +8339,47 @@ shipLabels:
       - null
 - - alliance
   - - - post
-      - ']</color></fontsize>'
+      - '</color> '
     - - pre
-      - '<fontsize=12><color=0xFFFEFF6F> ['
+      - '<color=0xFFFFB900>'
     - - state
       - 1
     - - type
       - alliance
 - - corporation
   - - - post
-      - ']</b></fontsize>'
+      - ''
     - - pre
-      - ' <fontsize=10><b>['
+      - ''
     - - state
       - 1
     - - type
       - corporation
 - - pilot name
   - - - post
-      - ']</fontsize><color=0xFFFFFFFF><b> -'
+      - '</b></color> '
     - - pre
-      - '
-
-        <fontsize=10> ['
+      - '] <color=0xFFFFFFFF><b>'
     - - state
       - 1
     - - type
       - pilot name
 - - ship name
   - - - post
-      - ''
+      - '
+
+<fontsize=11><color=0xFFFEFF6F><b>'
     - - pre
       - ''
     - - state
-      - 0
+      - 1
     - - type
       - ship name
 - - ship type
   - - - post
-      - '</u></b></color></fontsize>'
+      - '</b></color></fontsize> ['
     - - pre
-      - '<fontsize=12><color=0xFFFEBB64><b> <u>'
+      - '<fontsize=11><color=0xFFF5DEB3><b>'
     - - state
       - 1
     - - type
@@ -8395,7 +8394,7 @@ stateBlinks:
 - - flag_44
   - true
 - - flag_50
-  - false
+  - true
 - - flag_51
   - true
 - - flag_52
@@ -8410,7 +8409,9 @@ stateColorsNameList:
 - - background_16
   - darkBlue
 - - background_18
-  - red
+  - white
+- - background_19
+  - white
 - - background_20
   - white
 - - background_21
@@ -8426,7 +8427,9 @@ stateColorsNameList:
 - - background_51
   - orange
 - - background_52
-  - orange
+  - turquoise
+- - background_53
+  - white
 - - background_9
   - orange
 tabSetup:
@@ -8475,5 +8478,3 @@ tabSetup:
 userSettings:
 - - applyOnlyToShips
   - false
-- - overviewBroadcastsToTop
-  - true
