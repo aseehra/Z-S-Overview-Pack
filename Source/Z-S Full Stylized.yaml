@@ -8435,44 +8435,58 @@ stateColorsNameList:
 tabSetup:
 - - 0
   - - - bracket
-      - '<color=0xFFFFFFFF>✈ --- Travel: All</color>'
+      - '⌘ Brackets: Travel'
     - - name
-      - '<fontsize=13><color=0xFFFFFFFF><b>  ✈  </b></color></fontsize>'
+      - '<fontsize=12><color=0xFFFFFFFF><b>  ✈  </b></color></fontsize>'
     - - overview
-      - '<color=0xFFFFFFFF>✈ --- Travel: All</color>'
+      - '<color=0xFFFFFFFF>✈ Travel (-Ship +Sta)</color>'
 - - 1
   - - - bracket
-      - '<color=0xFFFF6666>✥ --- PvP: Basic (+Neut +NPC)</color>'
+      - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - name
-      - '<fontsize=11><color=0xFFFF6666><b>  Combat  </b></color></fontsize>'
+      - '<fontsize=13><color=0xFFFF6666><b>     ✥     </b></color></fontsize>'
     - - overview
       - '<color=0xFFFF6666>✥ --- PvP: Basic (+Neut +NPC)</color>'
 - - 2
   - - - bracket
-      - '<color=0xFFFD9666>✥ Target: Drones</color>'
+      - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - name
-      - '<fontsize=11><color=0xFFFD9666><b>  Targets  </b></color></fontsize>'
+      - '<fontsize=12><color=0xFFFD9666><b>   ╳   </b></color></fontsize>'
     - - overview
       - '<color=0xFFFD9666>✥ Target: Drones</color>'
 - - 3
   - - - bracket
-      - '<color=0xFFFFFF66>✜ PvE: Salvage/Loot</color>'
+      - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - name
-      - '<fontsize=11><color=0xFFD38FFD><b>  Misc  </b></color></fontsize>'
+      - '<fontsize=10><color=0xFFFFFF66><b>   3   </b></color></fontsize>'
     - - overview
-      - '<color=0xFFFFFF66>✜ PvE: Salvage/Loot</color>'
+      - '<color=0xFFFD9666>✥ Target: Fighters</color>'
 - - 4
   - - - bracket
-      - '<color=0xFF66CCFF>✪ --- Friendly: All (-Dro)</color>'
+      - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - name
-      - '<fontsize=11><color=0xFF66CCFF><b>  Friendly  </b></color></fontsize>'
+      - '<fontsize=10><color=0xFFD38FFD><b>   4   </b></color></fontsize>'
     - - overview
-      - '<color=0xFF66CCFF>✪ --- Friendly: All (-Dro)</color>'
+      - '<color=0xFFFD9666>✥ Target: Logistics</color>'
 - - 5
   - - - bracket
-      - '<color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+      - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - name
-      - '<fontsize=11><color=0xFF66FF66><b>  Warpout!  </b></color></fontsize>'
+      - '<fontsize=10><color=0xFFFD96CF><b>   5   </b></color></fontsize>'
+    - - overview
+      - '<color=0xFFFFFF66>✜ PvE: Salvage/Loot</color>'
+- - 6
+  - - - bracket
+      - '⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+    - - name
+      - '<fontsize=12><color=0xFF66CCFF><b>   ✪   </b></color></fontsize>'
+    - - overview
+      - '<color=0xFF66CCFF>✪ --- Friendly: All (-Dro)</color>'
+- - 7
+  - - - bracket
+      - '⌘ Brackets: Warpout (!)'
+    - - name
+      - '<fontsize=12><color=0xFF66FF66><b>   ➲   </b></color></fontsize>'
     - - overview
       - '<color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
 userSettings:
