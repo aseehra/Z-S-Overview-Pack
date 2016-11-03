@@ -10,8 +10,8 @@
 
 - ##### If I click "Save" to commit the changes, the preset name will not save properly.
 > Sadly the game has a character limit on the Name's input field in addition to some other restrictions:
-> - Character limit.
-> - Cannot input capital letters.
+> - ~~Character limit.~~ Increased from 40 to 80 on the September 2016 release.
+> - ~~Cannot input capital letters.~~ Added on the September 2016 release.
 > - Cannot input HTML tags (`<color>` & `<fontsize>`).
 > There is not an easy solution to this aside from saving as a new preset with default style and shorter name.  
 > The "not so easy" solution is to save the preset "as is", export the Overview Profile and edit the Preset name on the .YAML file directly.  
@@ -22,11 +22,10 @@
 > To fix it you need to open your "Overview Settings" window and cycle a few times between the menu tabs, this will force a resync.
 
 - ##### How to give you feedback?
-> The prefered method is to use the **Feedback Link** highlighted next to the **Green Text** both in the **MOTD** and the **Mailing List Welcoming Mail**.  
+> The prefered method is to use the **[Google Form Link](http://goo.gl/forms/h4rTeZCHNorqEsyx2)** next to the **Green Feedback Text**, both in the **MOTD** and the **Mailing List** welcoming mail.  
 > Other methods are:
 > - EVE-Mail **Zirio**.
-> - Write a comment on the **[Reddit](https://www.reddit.com/r/Eve/comments/4s3z9i/introducing_the_ziriosyundai_special_overview_pack/)** thread.
-> - Message **Zirio** on **[Slack](https://tweetfleet.slack.com/messages/zs-overview-dev/)**.
+> - Message **Zirio** on **[Slack](https://tweetfleet.slack.com/messages/zs-overview-dev/)** or in-game.
 
 ### Will be featured in a future comprenhensive Overview Guide. (G)
 

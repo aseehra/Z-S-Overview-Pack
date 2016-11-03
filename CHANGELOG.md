@@ -2,8 +2,8 @@
 
 >##### How to read versions:
 >- A.BB.XXYY - NAME
-	- A	= Game update - Sub-Classification Reset
-		- **Only if** overview entity types and/or visual states are affected.
+	- A	= New game release - Sub-Classification Reset
+		- **Only if** new entity types and/or visual states are added and affect the pack significantly.
         - **Or** sub-classifications reach the max count (99).
 		- Resets version sub-classifications to 0 (ex. v3.00.0000).
 	- BB = Pack and Layout deployment changes
@@ -18,6 +18,118 @@
 	- NAME = Shout out to the circumstance(s) and/or player(s) that provided the most feedback during the version development.
 
 ##### --- Standard Versions ---
+
+##### Version v4.04.2820 - 118.9 - _Critical fixes & additions_
+>1. Changed tab colors:
+    - "Targets" tab color to orange (#FD9666)
+    - "Misc" tab color to purple (#D38FFD)
+>2. Changed "Friendly" tab main preset from "✪ --- Friendly: All (+Dro)" to "✪ --- Friendly: All (-Dro)"
+>3. Changed preset colors:
+    - All "✜ PvE" presets to yellow (#FFFF66)
+    - All "✥ Target" presets to orange (#FD9666)
+>4. Changed presets:
+    - Renamed "※ D-Scan: Hunter" to "※ D-Scan: Hunter (+Dro / Offensive)"
+    - Renamed "※ D-Scan: Ships (-Cel +Dro)" to "※ D-Scan: Ships (+Dro / Defensive)"
+    - Renamed "※ D-Scan: Ships (-Cel -Dro)" to "※ D-Scan: Ships (-Dro / Defensive)"
+    - Added "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+        - Focuses on combat-related entities and NPC's, player ships regardless of standing.
+    - Added "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+        - Focuses on combat-related entities and NPC's, player ships regardless of standing, and drones.
+    - Added "⌘ Brackets: Misc"
+        - Includes most available entities and asteroids to be used with almost any preset.
+    - Added "⌘ Brackets: Travel"
+        - Focuses on travel-related brackets, including ships and entities that could present a threat depending on location/security status.
+    - Added "⌘ Brackets: Warpout (!)"
+        - Includes mostly celestial align points for escape.
+    - Added "※ D-Scan: Hunter (-Dro / Offensive)"
+    - Removed "⌘ --- Brackets: All"
+    - Removed "⌘ Brackets: Default"
+    - Removed "⌘ Brackets: Hostile"
+    - Removed "⌘ Brackets: None"
+    - Removed "⌘ Brackets: Skirmirsh"
+>5. Updated presets:
+    - Removed Celestial:
+        - "Stargate" to:
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "✪ = Friendly: Fleet"
+        - "Warp Gate" to:
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "✪ = Friendly: Fleet"
+        - "Wormhole" to:
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "✪ = Friendly: Fleet"
+    - Added Entity:
+        - "Large Collidable Structure" to:
+            - "✜ PvE: Incursion"
+    - Removed Celestial:
+        - "Large Collidable Object" from:
+            - "✜ PvE: Incursion"
+        - "Force Field" from:
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (+Neut -NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut -NPC)"
+            - "※ D-Scan: Ships (+Dro / Defensive)  Defense"
+            - "※ D-Scan: Ships (-Dro / Defensive)  Defense"
+
+##### Version v4.02.1214 - 118.9 - _Feedback follow-up & 118.9 tweaks_
+>1. The "Drones" tab is now called "Targets".
+    - Changed its color to a brighter purple (#D38FFD), it can be read more easily.
+>2. All "✥ Target" presets now have a new purple (#D38FFD) color to identify them more easily and be consistent with the Tab renaming and recoloring in point 1. 
+>2. Changed presets:
+    - Renamed "✥ --- PvP: FW" to"✥ PvP: FW"
+    - Added "✥ PvP: Exploring"
+    - Added "✥ PvP: PI"
+>3. Updated presets:
+    - Added Celestial:
+        - "Large Collidable Object" to:
+            - "✜ PvE: Incursion"
+    - Removed Celestial:
+        - "Entosis Command Node" from:
+            - "✜ PvE: Mining"
+    - Removed Entity:
+        - All FW entities from:
+            - "✜ PvE: Mining"
+        - All Mission entities from:
+            - "✜ PvE: Mining"
+        - "Deadspace Sleeper Upgraded Avenger" from:
+            - "✜ PvE: Mining"
+        - "Event Container" from:
+            - "✜ PvE: Mining"
+        - "Scatter Container" from:
+            - "✜ PvE: Mining"
+    - Removed NPC:
+        - "Mission NPC" from:
+            - "✜ PvE: Mining"
+    - Removed Sovereignty Structures:
+        - All from:
+            - "✜ PvE: Mining"
+
+##### Version v4.01.0805 - 118.8 - _Feedback follow-up_
+>1. Added new pack "Z-S D-Scan Extended"
+>2. Changed presets:
+    - All styled presets now have the default font size.
+    - Styled "Brackets" presets now have the default color.
+        - Will allow the player to edit and save them without breaking the HTML tags.
+    - Renamed "✈ Travel: Show All" to "✈ --- Travel: All"
+    - Added "✈ Travel (+Ship -Sta)"
+    - Added "✈ Travel (-Ship +Sta)"
+    - Added "※ D-Scan: Hunter"
+    - Removed "✈ --- Travel: Basic"
+    - Removed "✈ Travel: Hide Stations"
+>3. Updated presets:
+    - Added Celestial:
+        - "Wormhole" to:
+            - "➲ Extra: Align Points"
+            - "➲ Extra: Podsaver (!)"
+        - "Stargate" to:
+            - "➲ Extra: Align Points"
+    - Removed Celestial:
+        - "Moon" from:
+            - "✈ --- Travel: All"
 
 ##### Version v4.00.0002 - 118.8 - _New release_
 >1. Updated presets:
