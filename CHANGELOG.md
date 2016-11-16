@@ -6,9 +6,10 @@
 		- **Only if** new entity types and/or visual states are added and affect the pack significantly.
         - **Or** sub-classifications reach the max count (99).
 		- Resets version sub-classifications to 0 (ex. v3.00.0000).
-	- BB = Pack and Layout deployment changes
+	- BB = Pack and Layout deployment and minor coding changes
 		- Addition, deletion, split, rename and adjustements.
         - Amounts are added up to the previous version amounts to show the current total of modifications.
+        - Minor coding chages, backend.
 	- XX = Preset changes amount
 		- Addition, deletion, split, rename and adjustements.
 		- Amounts are added up to the previous version amounts to show the current total of modifications.
@@ -18,6 +19,178 @@
 	- NAME = Shout out to the circumstance(s) and/or player(s) that provided the most feedback during the version development.
 
 ##### --- Standard Versions ---
+
+##### Version v5.00.0110 - 118.11 - _Ascension_
+>1. Changed presets:
+    - Renamed "✪ Friendly: Logistic" to "✪ Friendly: Logistics"
+>2. Updated presets:
+    - Added Celestial:
+        - "Effect Beacon" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Misc"
+            - "⌘ Brackets: Travel"
+            - "✈ --- Travel: All"
+            - "✈ Travel (+Ship -Sta)"
+            - "✈ Travel (-Ship +Sta)"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (+Neut -NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut -NPC)"
+            - "✥ = CovOps: Collidables"
+            - "✥ = NPSI"
+            - "✥ = Wartargets"
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "✪ = Friendly: Fleet"
+        - "Super Weapon Beacon" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Misc"
+            - "⌘ Brackets: Travel"
+            - "✈ --- Travel: All"
+            - "✈ Travel (+Ship -Sta)"
+            - "✈ Travel (-Ship +Sta)"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (+Neut -NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut -NPC)"
+            - "✥ -- Ships only"
+            - "✥ = CovOps: Collidables"
+            - "✥ = NPSI"
+            - "✥ = Wartargets"
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "✪ = Friendly: Fleet"
+    - Added Charge:
+        - "Structure Guided Bomb" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Travel"
+            - "✈ --- Travel: All"
+            - "✈ Travel (+Ship -Sta)"
+            - "✈ Travel (-Ship +Sta)"
+            - "✜ --- PvE: Basic (+Dro)"
+            - "✜ --- PvE: Basic (-Dro)"
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Incursion"
+            - "✜ PvE: Mining"
+            - "✜ PvE: Ratting"
+            - "✜ PvE: Salvage/Loot"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (+Neut -NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut -NPC)"
+            - "✥ -- Ships only"
+            - "✥ = CovOps: Collidables"
+            - "✥ = Deployables"
+            - "✥ = NPSI"
+            - "✥ = Wartargets"
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "✪ = Friendly: Fleet"
+            - "✪ Friendly: Capitals"
+            - "✪ Friendly: Carriers"
+            - "✪ Friendly: Dictors"
+            - "✪ Friendly: Dreads"
+            - "✪ Friendly: Logistics"
+            - "✪ Friendly: Recons"
+            - "✪ Friendly: SC/T"
+    - Added Entity:
+        - All "Mission (Faction) (Ship)" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+        - All "♦ Mining (Ship)" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Misc"
+            - "✜ --- PvE: Basic (+Dro)"
+            - "✜ --- PvE: Basic (-Dro)"
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Mining"
+            - "✜ PvE: Ratting"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ = CovOps: Collidables"
+        - All "♦ (Ship)" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Misc"
+            - "✜ --- PvE: Basic (+Dro)"
+            - "✜ --- PvE: Basic (-Dro)"
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Mining"
+            - "✜ PvE: Ratting"
+            - "✜ PvE: Salvage/Loot"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ = CovOps: Collidables"
+            - "✥ PvP: FW"
+        - "Tutorial Seekers" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Misc"
+            - "✜ --- PvE: Basic (+Dro)"
+            - "✜ --- PvE: Basic (-Dro)"
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Ratting"
+            - "✜ PvE: Salvage/Loot"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+        - All "Hidden Zenith (Faction) (Ship)" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+        - All "Hidden Zenith (Faction) Capital" to:
+            - "✜ --- PvE: Basic (+Dro)"
+            - "✜ --- PvE: Basic (-Dro)"
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Ratting"
+            - "✜ PvE: Salvage/Loot"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+    - Added Structure:
+        - "Engineering Complex" to:
+            - "⌘ Brackets: Combat/Targets/Friendly (+Dro)"
+            - "⌘ Brackets: Combat/Targets/Friendly (-Dro)"
+            - "⌘ Brackets: Misc"
+            - "⌘ Brackets: Travel"
+            - "⌘ Brackets: Warpout (!)"
+            - "✈ --- Travel: All"
+            - "✈ Travel (-Ship +Sta)"
+            - "✜ --- PvE: Basic (+Dro)"
+            - "✜ --- PvE: Basic (-Dro)"
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Incursion"
+            - "✜ PvE: Mining"
+            - "✜ PvE: Ratting"
+            - "✜ PvE: Salvage/Loot"
+            - "✥ --- PvP: Basic (+Neut +NPC)"
+            - "✥ --- PvP: Basic (+Neut -NPC)"
+            - "✥ --- PvP: Basic (-Neut +NPC)"
+            - "✥ --- PvP: Basic (-Neut -NPC)"
+            - "✥ = Structures"
+            - "✥ PvP: Exploring"
+            - "✥ PvP: FW"
+            - "✥ PvP: PI"
+            - "✪ --- Friendly: All (+Dro)"
+            - "✪ --- Friendly: All (-Dro)"
+            - "※ --- D-Scan: All"
+            - "※ D-Scan: Hunter (+Dro / Offensive)"
+            - "※ D-Scan: Hunter (-Dro / Offensive)"
+            - "※ D-Scan: Ships (+Dro / Defensive)"
+            - "※ D-Scan: Ships (-Dro / Defensive)"
+
+##### Version v4.05.3021 - 118.9 - _Large Hadron Collider_
+>1. Removed `<fontsize=11>` tags due they are the default game fontsize and do not need to be declared.
+>2. Changed presets:
+    - Added "✥ = CovOps: Collidables"
+    - Removed "✥ = Bombing Warpouts"
+        - "➲ Extra: Align Points" has the same, if not better, functionality.
+>3. Updated presets:
+    - Added Deployable:
+        - "Encounter Surveillance System" to:
+            - "✜ PvE: Anoms"
+            - "✜ PvE: Ratting"
 
 ##### Version v4.04.2820 - 118.9 - _Critical fixes & additions_
 >1. Changed tab colors:
@@ -80,7 +253,7 @@
     - Changed its color to a brighter purple (#D38FFD), it can be read more easily.
 >2. All "✥ Target" presets now have a new purple (#D38FFD) color to identify them more easily and be consistent with the Tab renaming and recoloring in point 1. 
 >2. Changed presets:
-    - Renamed "✥ --- PvP: FW" to"✥ PvP: FW"
+    - Renamed "✥ --- PvP: FW" to "✥ PvP: FW"
     - Added "✥ PvP: Exploring"
     - Added "✥ PvP: PI"
 >3. Updated presets:
