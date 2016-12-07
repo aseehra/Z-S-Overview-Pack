@@ -9266,17 +9266,17 @@ shipLabelOrder:
 - ship type
 - alliance
 - corporation
+- pilot name
 - ship name
 - null
-- pilot name
 shipLabels:
 - - null
   - - - post
       - ''
     - - pre
-      - ']</b></fontsize>'
+      - ''
     - - state
-      - 1
+      - 0
     - - type
       - null
 - - alliance
@@ -9312,7 +9312,7 @@ shipLabels:
 
 <fontsize=11><color=0xFFFEFF6F><b>'
     - - pre
-      - ' <i>'
+      - ''
     - - state
       - 1
     - - type
