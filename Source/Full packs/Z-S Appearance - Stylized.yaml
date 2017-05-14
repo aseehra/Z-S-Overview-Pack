@@ -9857,7 +9857,7 @@ tabSetup:
     - - name
       - '<fontsize=12><color=0xFFFFFFFF><b>  ✈  </b></color></fontsize>'
     - - overview
-      - '<color=0xFFFFFFFF>✈ Travel (-Ship +Sta)</color>'
+      - '<color=0xFFFFFFFF>✈ Travel (-Ship +Sta +Pla)</color>'
 - - 1
   - - - bracket
       - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
