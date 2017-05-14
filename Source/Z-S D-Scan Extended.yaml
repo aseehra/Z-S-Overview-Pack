@@ -190,6 +190,7 @@ presets:
         - 1409
         - 1410
         - 1527
+        - 1530
         - 1534
         - 1537
         - 1538
@@ -266,6 +267,7 @@ presets:
         - 1409
         - 1410
         - 1527
+        - 1530
         - 1534
         - 1538
         - 1657
@@ -490,6 +492,7 @@ presets:
         - 1409
         - 1410
         - 1527
+        - 1530
         - 1534
         - 1537
         - 1538
@@ -556,6 +559,7 @@ presets:
         - 1409
         - 1410
         - 1527
+        - 1530
         - 1534
         - 1538
         - 1657
@@ -657,6 +661,8 @@ stateColorsNameList:
   - red
 - - background_45
   - blue
+- - background_48
+  - black
 - - background_49
   - blue
 - - background_50
@@ -667,6 +673,8 @@ stateColorsNameList:
   - orange
 - - background_9
   - orange
+- - flag_48
+  - black
 tabSetup:
 - - 0
   - - - bracket

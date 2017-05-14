@@ -99,7 +99,7 @@ What does this mean?
     - Yuki Yoichi
     - Zoe Dallocort
     
-### 2. 1000 Subscribers on the Mailing List
+### 3. 1000 Subscribers on the Mailing List
 ##### Reached on 30/10/2016
 
 EVE-Mail from Deuce Syundai: 
@@ -128,3 +128,16 @@ EVE-Mail from Deuce Syundai:
     - Yoruichi Ratsuda
     - Zetrick
     - Ziggs Boson
+
+### 4. 650 Active players in the channel
+##### Reached on 03/12/2016
+
+Brought a tear to Deuce's eye, seeing another multiple of 65 being achieved.  
+The channel peaked at 671 that day.
+
+### 5. Article on the Imperium News website.
+##### Received on 24/01/2017
+
+A big **Thank You** to **Stephanie Daugherty** for interviewing Deuce and I (Zirio) to write an article on **[Imperium News](https://imperium.news/z-s-overview-pack/)** about the pack.
+
+And another big **Thank You** to **ERJ145a** for making an awesome **[Video Tutorial](https://www.youtube.com/watch?v=lTmXDiEgb7s)** to go along with the article.
